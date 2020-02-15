@@ -16,3 +16,39 @@ ul {
 img {
     max-width: 100%;
 }
+.img-logo {
+  width: 300px;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+/*Default classes start*/
+.d-flex {
+    display: flex;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+/*Default classes end*/
+#header {
+    padding: 20px 0;
+    border-bottom: 2px solid #27af61; 
+}
+.header-nav {
+    font-size: 23px;
+    font-weight: 700;
+}
+.header-nav a {
+    text-transform: capitalize; 
+}
+.header-nav a + a{
+    margin-left: 30px;
+}
+.header-nav a:hover {
+    color: #27af61;
+}
