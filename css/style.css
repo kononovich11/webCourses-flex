@@ -51,6 +51,10 @@ img {
 #header {
     padding: 20px 0;
     border-bottom: 2px solid #27af61; 
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 .header-nav {
     font-size: 23px;
@@ -64,6 +68,9 @@ img {
 }
 .header-nav a:hover {
     color: #27af61;
+}
+#main {
+    padding-top: 80px;
 }
 .section-title {
     font-weight: 900;
